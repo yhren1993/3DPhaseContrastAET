@@ -12,7 +12,7 @@ This repository contains the code for algorithm introduced in the following pape
 3. [Updates](#updates)
 
 ## Usage 
-0. Install required dependency [Arrayfire](https://github.com/arrayfire/arrayfire-python) and [contexttimer](https://pypi.org/project/contexttimer/).
+0. Install required dependencies [Arrayfire](https://github.com/arrayfire/arrayfire-python) and [contexttimer](https://pypi.org/project/contexttimer/).
 1. Clone this repo: ```git clone https://github.com/yhren1993/3DPhaseContrastAET.git```
 2. Copy measurement data into ```data/measurement/```
 
