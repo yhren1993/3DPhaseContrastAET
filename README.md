@@ -1,4 +1,4 @@
-# 3DPhaseContrastAET
+# 3D Phase Contrast Atomic Electron Tomography
 This repository contains the code for algorithm introduced in the following paper
 
 [A Practical Reconstruction Method for Three-Dimensional Phase Contrast Atomic Electron Tomography](https://arxiv.org/abs/1807.03886)
