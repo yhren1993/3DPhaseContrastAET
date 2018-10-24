@@ -1,5 +1,5 @@
-# Atom Tracing code
-**Written in MATLAB by Colin Ophus**
+# Atom Tracing and Classifying code
+**Written in MATLAB by Colin Ophus and David Ren**
 
 The functions in this directory are used to trace atoms in a final reconstruction volume and compare with with ground truth.
 The main functions in the directory are:
