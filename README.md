@@ -8,7 +8,7 @@ This repository contains the code for algorithm introduced in the following pape
 
 ## Contents
 1. [Usage](#usage)
-2. [Others](#others)
+2. [Data](#data)
 3. [Updates](#updates)
 
 ## Usage 
@@ -16,8 +16,10 @@ This repository contains the code for algorithm introduced in the following pape
 1. Clone this repo: ```git clone https://github.com/yhren1993/3DPhaseContrastAET.git```
 2. Copy measurement data into ```data/measurement/```
 
-## Others
-None.
+## Data
+All simulated measurement data can be found [here](link).
+All reconstruction results can be found [here](link).
+All atomtrace results can be found [here](link).
 
 ## Updates
 10/22/2018:
