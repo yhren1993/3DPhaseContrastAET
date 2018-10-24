@@ -18,7 +18,9 @@ This repository contains the code for algorithm introduced in the following pape
 
 ## Data
 All simulated measurement data can be found [here](link).
+
 All reconstruction results can be found [here](link).
+
 All atomtrace results can be found [here](link).
 
 ## Updates
