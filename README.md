@@ -17,11 +17,11 @@ This repository contains the code for algorithm introduced in the following pape
 2. Copy measurement data into ```data/measurement/```
 
 ## Data
-All simulated measurement data can be found [here](https://github.com/yhren1993/3DPhaseContrastAET/measurement).
+All simulated measurement data can be found [here](https://github.com/yhren1993/3DPhaseContrastAET/data/measurement).
 
-All reconstruction results can be found [here](https://github.com/yhren1993/3DPhaseContrastAET/reconstruction).
+All reconstruction results can be found [here](https://github.com/yhren1993/3DPhaseContrastAET/data/reconstruction).
 
-All atomtrace results can be found [here](https://github.com/yhren1993/3DPhaseContrastAET/atomtrace).
+All atomtrace results can be found [here](https://github.com/yhren1993/3DPhaseContrastAET/data/atomtrace).
 
 ## Updates
 10/22/2018:
