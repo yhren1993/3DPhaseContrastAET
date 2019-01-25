@@ -25,3 +25,6 @@ All simulated measurements, reconstructed volumes, and tracing results can be fo
 
 10/29/2018:
 1. Added links to data location
+
+01/25/2019:
+1. Fixed a bug issue for using TV on CPU
