@@ -10,6 +10,7 @@ This repository contains the code for algorithm introduced in the following pape
 1. [Usage](#usage)
 2. [Data](#data)
 3. [Updates](#updates)
+4. [FAQ](#FAQ)
 
 ## Usage 
 0. Install required dependencies [Arrayfire](https://github.com/arrayfire/arrayfire-python) and [contexttimer](https://pypi.org/project/contexttimer/).
@@ -28,3 +29,8 @@ All simulated measurements, reconstructed volumes, and tracing results can be fo
 
 01/25/2019:
 1. Fixed an issue for using TV on CPU
+
+## FAQ
+#### What is the GPU configuration recommended?
+In order to fit all of the computation on GPU, GPU memory of 11 GB (GTX 1080 Ti for example) is needed.
+
