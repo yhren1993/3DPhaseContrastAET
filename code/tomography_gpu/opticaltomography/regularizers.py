@@ -281,13 +281,13 @@ class TotalVariationCPU(TotalVariationGPU):
 	
 	def computeProx(self, x):		
 		if self.pure_real:
-			x = self._computeProxReal(x.real, self.realProjector) + 1.0j * 0.0
+			x = self._computeProxReal(np.real(x), self.realProjector) + 1.0j * 0.0
 		elif self.pure_imag:
-			x = 1.0j *self._computeProxReal(x.imag, self.imagProjector)
+			x = 1.0j *self._computeProxReal(np.imag(x), self.imagProjector)
 		else:
-			x = self._computeProxReal(x.real, self.realProjector) \
-			    + 1.0j * self._computeProxReal(x.imag, self.imagProjector)
-		return x
+			x = self._computeProxReal(np.real(x), self.realProjector) \
+			    + 1.0j * self._computeProxReal(np.imag(x), self.imagProjector)
+		return af.to_array(x)
 
 	def _computeProxReal(self, x, projector):
 		t_k        = 1.0
@@ -339,8 +339,8 @@ class Positivity(ProximalOperator):
 			x = self._boundRealValue(af.real(x), 0, self.real) +\
                       1.0j * self._boundRealValue(af.imag(x), 0, self.imag)
 		else:
-			x = self._boundRealValue(x.real, 0, self.real) +\
-                      1.0j * self._boundRealValue(x.imag, 0, self.imag)
+			x = self._boundRealValue(np.real(x), 0, self.real) +\
+                      1.0j * self._boundRealValue(np.imag(x), 0, self.imag)
 		return x
 
 class Negativity(Positivity):
@@ -363,7 +363,7 @@ class PureReal(ProximalOperator):
 		if type(x).__module__ == "arrayfire.array":
 		    x = af.real(x) + 1j*0.0
 		else:
-		    x = x.real + 1j*0.0
+		    x = np.real(x) + 1j*0.0
 		return x
 
 class Pureimag(ProximalOperator):
@@ -405,7 +405,7 @@ class Lasso(ProximalOperator):
 		if type(x).__module__ == "arrayfire.array":
 			x = self._softThreshold(af.real(x)) + 1.0j * self._softThreshold(af.imag(x))
 		else:
-		    x = self._softThreshold(x.real) + 1.0j * self._softThreshold(x.imag)
+		    x = self._softThreshold(np.real(x)) + 1.0j * self._softThreshold(np.imag(x))
 		return x		
 
 #TODO: implement Tikhonov
