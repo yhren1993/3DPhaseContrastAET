@@ -3,7 +3,7 @@ This repository contains the code for algorithm introduced in the following pape
 
 [A Practical Reconstruction Method for Three-Dimensional Phase Contrast Atomic Electron Tomography](https://arxiv.org/abs/1807.03886)
 
-[David Ren](http://scholar.google.com/citations?user=zTsT-cAAAAAJ&hl=en)\*, [Colin Ophus](https://foundry.lbl.gov/people/colin_ophus.html)\*, Michael Chen and [Laura Waller](https://www.laurawaller.com) (\* Authors contributed equally).
+[David Ren](http://scholar.google.com/citations?user=zTsT-cAAAAAJ&hl=en)\*, [Colin Ophus](https://foundry.lbl.gov/about/staff/colin-ophus/)\*, Michael Chen and [Laura Waller](https://www.laurawaller.com) (\* Authors contributed equally).
 
 
 ## Contents
