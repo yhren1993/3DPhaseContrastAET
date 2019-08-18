@@ -31,6 +31,3 @@ All simulated measurements, reconstructed volumes, and tracing results can be fo
 1. Fixed an issue for using TV on CPU
 
 ## FAQ
-#### What is the GPU configuration recommended?
-In order to fit all of the computation on GPU, GPU memory of 11 GB (GTX 1080 Ti for example) is needed. Note that current Arrayfire does not support CUDA 10, which is required for a RTX GPU. 
-
