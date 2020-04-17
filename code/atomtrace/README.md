@@ -15,3 +15,7 @@ The main functions in the directory are:
 	- ```sPeaks```: tracing results (matlab structure) **After passing out of ```compareWithGroundTruth``` in 2**
 
 *```atoms_ground_truth```: accessible under data/atomtrace/.
+
+## Bug Fixes
+04/17/2020:
+1. Fixed bug in for loop indexing in helper function ```refineSitesAtomTraceHelper.m```
