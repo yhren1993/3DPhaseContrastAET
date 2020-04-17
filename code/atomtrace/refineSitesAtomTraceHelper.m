@@ -48,7 +48,7 @@ xCrop = zeros(Ncrop);
 yCrop = zeros(Ncrop);
 zCrop = zeros(Ncrop);
 volCrop = zeros(Ncrop);
-for a0 = Np
+for a0 = 1:Np
     p = peaksRefine(a0,:);
     
     % Cut out segment around atom
