@@ -1,7 +1,7 @@
 # 3D Phase Contrast Atomic Electron Tomography
 This repository contains the code for algorithm introduced in the following paper
 
-[A Practical Reconstruction Method for Three-Dimensional Phase Contrast Atomic Electron Tomography](https://arxiv.org/abs/1807.03886)
+[A multiple scattering algorithm for three dimensional phase contrast atomic electron tomography](https://www.sciencedirect.com/science/article/pii/S030439911930052X)
 
 [David Ren](http://scholar.google.com/citations?user=zTsT-cAAAAAJ&hl=en)\*, [Colin Ophus](https://foundry.lbl.gov/about/staff/colin-ophus/)\*, Michael Chen and [Laura Waller](https://www.laurawaller.com) (\* Authors contributed equally).
 
